@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19.2px;
+    letter-spacing: 0%;
+
+
+}
+
+.icons {
+    display: flex;
+    gap: 58px;
+    color: white;
+
+}
+
+header {
+    background-color: black;
+    padding: 28px;
+}
+
+nav ul a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.elo {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 118.08px;
+    letter-spacing: 2%;
+    color: hsla(0, 0%, 100%, 1);
+    padding-top: 80px;
+    padding-bottom: 48px;
+}
+
+.hero {
+    background-image: url("./img/1.png");
+    height: 875px;
+}
+
+.en {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.btn {
+    padding: 16px 45px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.68px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(24, 91%, 54%, 1);
+    border-radius: 10px;
+    border: none;
+}
+
+.cen {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    color: hsla(0, 0%, 100%, 1);
+    padding-bottom: 40px;
+}
+
+nav ul li a:hover {
+    color: orange;
+    transform: 1s;
+}
+
+.tr {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78.72px;
+    letter-spacing: 5%;
+    text-align: center;
+    color: hsla(0, 0%, 6%, 1);
+    padding-top: 59px;
+}
+
+.hero2 {
+    background-color: gray;
+}
+
+.dec {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    color: hsla(0, 0%, 6%, 1);
+    padding-left: 20px;
+    padding-top: 24px;
+    color: white;
+}
+
+.pi {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    color: hsla(0, 0%, 6%, 1);
+    padding-top: 50px;
+    padding-left: 20px;
+    color: white;
+}
+
+.hero2-card:hover {
+    background-color: hsla(24, 91%, 54%, 1);
+    color: black;
+    transform: 1s;
+}
+
+.hero2-card {
+    background-color: black;
+    height: 462px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.hero2-card-ota {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sv {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49.2px;
+    letter-spacing: 5%;
+    color: hsla(0, 0%, 100%, 1);
+    padding-top: 52px;
+    padding-bottom: 92px;
+}
+
+.hero3 {
+    background-image: url("./img/image\ 86.png");
+    height: 636px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: hsla(24, 91%, 54%, 1);
+}
+
+input {
+    width: 292px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px 20px;
+    padding: 10px 16px;
+}
+
+textarea {
+    width: 630px;
+    height: 154px;
+    outline: none;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    margin: 10px 20px;
+}
+
+.btn2 {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.68px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: hsla(24, 91%, 54%, 1);
+    padding-top: 40px;
+    padding: 16px 262px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+footer {
+    background-color: hsla(0, 0%, 6%, 1);
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.ota-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    color: white;
+}
+
+.ka {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38.4px;
+    letter-spacing: 1%;
+}
+
+.trd {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    color: hsla(0, 0%, 100%, 1);
+    padding-top: 32px;
+}
